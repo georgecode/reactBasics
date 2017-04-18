@@ -1,1 +1,1 @@
-React Skeleton
+React Basics
