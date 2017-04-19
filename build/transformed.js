@@ -9515,6 +9515,14 @@ module.exports = getIteratorFn;
 
 var React = __webpack_require__(50);
 
+// class RedWord extends React.Component {
+//   render(){
+//     return (
+//       <h1>RED</h1>
+//       )
+//   }
+// }
+
 module.exports = React.createClass({
   displayName: "exports",
 
