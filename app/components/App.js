@@ -4,7 +4,7 @@ var React = require('react');
 class Header extends React.Component {
   render(){
     return (
-      <h1>This is a header</h1>
+      <h1 className="header">This is a header</h1>
       )
   }
 }
@@ -12,11 +12,11 @@ class Header extends React.Component {
 class NavBar extends React.Component{
   render(){
     return (
-      <ul>
-        <li>Home </li>
-        <li>About</li>
-        <li>Surfing</li>
-        <li>Hikeing</li>
+      <ul className="navBar">
+        <a href="#"><li>Home </li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Surfing</li></a>
+        <a href="#"><li>Hikeing</li></a>
       </ul>
       )
   }

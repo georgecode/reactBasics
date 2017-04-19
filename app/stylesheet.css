@@ -1,0 +1,17 @@
+.header{
+  text-align: center;
+  background-color: rgba(100,0,255,0.5);
+  height: 100%;
+}
+
+.navBar ul{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.navBar li{
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
